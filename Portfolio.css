@@ -283,6 +283,9 @@ body{
 .bt h1{
     color: transparent;
     font-size: 1.3rem;
+    align-items: center;
+    text-align: center;
+   padding-right: 230px;
 }
 .bt h1::before{
    content: attr(data-text);
