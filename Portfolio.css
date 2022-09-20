@@ -282,7 +282,7 @@ body{
 }
 .bt h1{
     color: transparent;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .bt h1::before{
    content: attr(data-text);
