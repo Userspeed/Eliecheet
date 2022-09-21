@@ -285,7 +285,7 @@ body{
     font-size: 1.3rem;
     align-items: center;
     text-align: center;
-   padding-right: 230px;
+   /*padding-right: 230px;*/
 }
 .bt h1::before{
    content: attr(data-text);
@@ -306,7 +306,7 @@ body{
         width: 0;
     }
     100%{
-        width: 300px;
+        width: 206px;
     }
 }
 
