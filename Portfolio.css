@@ -275,23 +275,30 @@ body{
    
     align-items: center;
     text-align: center;
-
     
+    
+   
     
   
 }
 .bt h1{
+    justify-content: center;
+  
     color: transparent;
     font-size: 1.3rem;
     align-items: center;
     text-align: center;
    /*padding-right: 230px;*/
+   position: relative;
+   overflow: hidden;
+   white-space: nowrap;
+   
 }
 .bt h1::before{
    content: attr(data-text);
     position: absolute;
     color: rgb(0, 0, 0);
-    width: 100px;
+    width: 200px;
     overflow: hidden;
     white-space: nowrap;
     border-right: 3px solid transparent;
@@ -303,7 +310,7 @@ body{
 
 @keyframes anim{
     0%,10%,100%{
-        width: 0;
+        width: 0%;
     }
     100%{
         width: 206px;
